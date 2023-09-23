@@ -1,6 +1,5 @@
 <script setup>
 import 'bootstrap/dist/css/bootstrap.css';
-import Registerpage from './Pages/Registerpage.vue';
 </script>
 
 <template>
