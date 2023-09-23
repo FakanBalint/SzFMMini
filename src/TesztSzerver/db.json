@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Teszt",
+      "password": "secret",
+      "LastLogin": null
+    }
+  ],
+  "register": [
+    {
+      "id": 1,
+      "username": "Teszt",
+      "password": "secret"
+    },
+    {
+      "username": "Kovács",
+      "password": "Jenő",
+      "id": 2
+    },
+    {
+      "username": "Guga",
+      "password": "JÁnos",
+      "id": 3
+    }
+  ],
+  "login": [
+    {
+      "username": "Teszt",
+      "password": "secret",
+      "id": 1
+    },
+    {
+      "username": "Guga",
+      "password": "Béla",
+      "id": 2
+    },
+    {
+      "username": "",
+      "password": "Béla",
+      "id": 3
+    }
+  ]
+}

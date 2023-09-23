@@ -1,5 +1,6 @@
 <script setup>
-
+import { useUserStore  } from '../stores/userStore';
+const userStore = useUserStore();
 </script>
 
 <template>
@@ -8,8 +9,8 @@
         <h1>Register Page</h1>
     </div>
     <div>
-        <input type="text" placeholder="Username">
-        <input type="text" placeholder="Password">
+        <input type="text" v-model="userStore.username" placeholder="Username">
+        <input type="password" v-model="userStore.password"  placeholder="Password">
 
         
     </div>
@@ -20,7 +21,8 @@
         <div class="row">
             <div class="col-md-6">
             <!-- Button 1 -->
-            <button class="btn btn-primary">Register</button>
+            <button class="btn btn-primary" @click="userStore.registerUser" >Register</button>
+
             </div>
             <div class="col-md-6">
             <!-- Button 2 -->
