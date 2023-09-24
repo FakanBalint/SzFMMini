@@ -22,6 +22,26 @@
       "username": "Guga",
       "password": "JÁnos",
       "id": 3
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 5
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "username": "",
+      "password": "",
+      "id": 7
     }
   ],
   "login": [
@@ -36,9 +56,49 @@
       "id": 2
     },
     {
-      "username": "",
-      "password": "Béla",
+      "isTrusted": true,
+      "_vts": 1695501597287,
       "id": 3
+    },
+    {
+      "isTrusted": true,
+      "_vts": 1695501780634,
+      "id": 4
+    },
+    {
+      "isTrusted": true,
+      "_vts": 1695502046255,
+      "id": 5
+    },
+    {
+      "isTrusted": true,
+      "_vts": 1695502067521,
+      "id": 6
+    },
+    {
+      "isTrusted": true,
+      "_vts": 1695513092582,
+      "id": 7
+    },
+    {
+      "isTrusted": true,
+      "_vts": 1695523399180,
+      "id": 8
+    },
+    {
+      "isTrusted": true,
+      "_vts": 1695523402303,
+      "id": 9
+    },
+    {
+      "isTrusted": true,
+      "_vts": 1695523523227,
+      "id": 10
+    },
+    {
+      "isTrusted": true,
+      "_vts": 1695523528963,
+      "id": 11
     }
   ]
 }

@@ -1,36 +1,42 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import Mainpage from '../pages/Mainpage.vue'
-import Registerpage from '../Pages/Registerpage.vue'
-import Loginpage from '../pages/Loginpage.vue'
+import {createRouter, createWebHistory} from 'vue-router';
+
+import HomePage from "../views/HomeView.vue";
+import LoginPage from "../views/LoginView.vue";
+import RegisterPage from "../views/RegisterView.vue";
+import MainPage from "../views/MainView.vue";
+
+
+const routes = [
+  {
+    path: '/',
+    name: 'HomePage',
+    component: HomePage,
+  },
+  {
+    path: '/login',
+    name: 'LoginPage',
+    component: LoginPage,
+  },
+  {
+    path: '/registration',
+    name: 'RegisterPage',
+    component: RegisterPage,
+  },
+  {
+    path: '/main',
+    name: 'TreeSimulatorPage',
+    component: MainPage,
+  },
+  {
+    path: '/:catchAll(.*)*',
+    redirect: {name: 'HomePage'}
+  }
+
+]
 
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
-  routes: [
-    {
-      path: '/',
-      name: 'Mainpage',
-      component: Mainpage
-    },
-    {
-      path: '/register',
-      name: 'Registerpage',
-      component: Registerpage
-    },
-    {
-      path: '/login',
-      name: 'Loginpage',
-      component: Loginpage
-    },
-    {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: () => import('../views/AboutView.vue')
-    }
-  ]
-})
+  history: createWebHistory(''),
+  routes,
+});
 
-export default router
+export default router;
