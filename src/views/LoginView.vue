@@ -1,7 +1,7 @@
 <template>
 
 
-  <div class="ui container" style="margin-top: 1rem">
+  <div class="ui container" style="margin-top: 1rem;">
 
     <Errors/>
 
@@ -80,7 +80,12 @@ function toRegistrationPage() {
 <style scoped>
 .login-segment {
   background-image: linear-gradient(to right, #f5f7f1, #aae8e3);
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  left: 30%;
 }
+
 .error{
   color: red;
 }

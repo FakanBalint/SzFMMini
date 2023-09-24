@@ -73,6 +73,10 @@ function toLoginPage() {
 <style scoped>
 .register-segment {
   background-image: linear-gradient(to right, #f5f7f1, #ddf2b8);
+  align-items: center;
+  text-align: center;
+  width: 80%;
+  left: 30%;
 }
 
 .error {

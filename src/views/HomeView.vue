@@ -45,6 +45,9 @@
 
 <style scoped>
 .page-background {
-  background-image: linear-gradient(to right, #f5f7f1, #aae8e3);
+  background-image: linear-gradient(to right, #0dff1da7, #0ca5989d);
+  align-items: center;
+  text-align: center;
+  width: 80%;
 }
 </style>
